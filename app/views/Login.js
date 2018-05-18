@@ -11,12 +11,12 @@ import {
     TouchableOpacity,
     Alert,
     ScrollView
-} from 'react-native'
-import {connect} from 'react-redux'
-import DeviceStorage from '../utils/DeviceStorage'
-import Consts from '../config/consts'
-import {NavigationActions} from 'react-navigation'
-import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view'
+} from 'react-native';
+import {connect} from 'react-redux';
+import DeviceStorage from '../utils/DeviceStorage';
+import Consts from '../config/consts';
+import {NavigationActions} from 'react-navigation';
+import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 
 const img_arr = [require('../assets/designer/icon_eyes.png'), require('../assets/designer/eye.png')];
 const background = require('../assets/designer/login_back.png');
