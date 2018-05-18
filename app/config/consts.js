@@ -1,0 +1,50 @@
+const Consts ={
+    server: {
+        MESH: 'http://140.207.233.95:8080/api/v1/',
+        BACKSTAGE: 'http://140.207.233.95/smartx/webapi/service/designer/',
+        UPLOAD: 'http://140.207.233.95/smartx/webapi/resource/upload/',
+        TEMPLATE:'http://140.207.233.95/smartx/template/'
+    },
+    api:{
+        LOGIN:"CellLogin/",
+        COMPANYREGISTER: "CellCompanyRegister/",
+        RESETPASSWORD: "CellResetPassword/",
+        USERREGISTER: "CellUserRegister/",
+        SENDCODE: "CellFwSendValidateCode/",
+        UPLOADIMAGE: "http://140.207.233.95/smartx/webapi/resource/upload",
+        GETTOP100: 'CellTop100Designers/',
+        SEARCHDESIGNER: 'CellSearchDesigners/',
+        FEEDBACK: 'CellFeedBack/',
+        AVATARUPDATE: 'CellAvatarUpdate/',
+        LOGINMESH: 'auth/login',
+        SEARCHMESH: 'search/nodes?version=published',
+        MODIFYPASSWORD: 'CellModifyPassword/',
+        CHECKEMAIL: 'CellCheckEmail/',
+        GETADVERT: 'WebGetAdvertisement/',
+        CREATERECRUIT: 'CellCreateRecruit/',
+        GETMATCHES: 'CellGetRecruit/',
+        GETRECRUITBYCOMPANY: 'CellGetRecruitByCompany/',
+        DELETERECRUIT: 'CellDeleteRecruit/',
+        SENDAPPLY: 'CellSendApplyByDesigner/',
+        GETAPPLYBYDESIGNER: 'CellGetApplyByDesigner/',
+        GETAPPLYBYCOMPANY: 'CellGetApplyByCompany/',
+        INTERVIEWAPPOINT: 'CellSendApplyByCompany/',
+    },
+    theme:{
+        primaryColor: '#000000',
+        backgroundColor: '#ffffff',
+        headerTintColor: '#fff',
+    },
+    localStorage: {
+        ISLOGIN: 'isLogin',
+        X_TOKEN: 'x_token',
+        USERCATEGORY: 'userCategory',
+        NAME: 'name',
+        AVATAR: 'avatar',
+        USERNAME: 'username',
+        PASSWORD: 'password',
+        UNIQUEID: 'uniqueid',
+        SEARCHHISTORY: 'searchHistory',
+    }
+}
+export default Consts
